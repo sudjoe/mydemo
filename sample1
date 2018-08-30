@@ -1,0 +1,7 @@
+this is sample1
+cat sample1
+
+cat > sample2
+this is sample2
+cat sample1 sample2 > sample
+cat sample
