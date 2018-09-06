@@ -1,6 +1,6 @@
 # parent class
 class Bird:
-    
+
     def __init__(self):
         print("Bird is ready")
 
@@ -28,4 +28,3 @@ peggy = Penguin()
 peggy.whoisThis()
 peggy.swim()
 peggy.run()
-	
