@@ -1,5 +1,5 @@
 class Singleton:
-   __instance = None
+   __instance = None       #1st design pattern program
    @staticmethod 
    def getInstance():
       """ Static access method. """
