@@ -7,7 +7,7 @@ def myfun(a,b,c,name,data,add):
     print"myfuction",a,b,c
     print"myfuction", name,data,add
 
-myfun(1,3,4,name=1,data=2,add=34)
+
 
 def myfun2(*s,**ss):
     '''
@@ -18,8 +18,12 @@ def myfun2(*s,**ss):
     print"myfuction",s
     print"myfuction", ss
 
-myfun2(1,3,4,name=1,data=2,add=34)
 
+
+
+if __name__ == '__main__':
+    myfun(1, 3, 4, name=1, data=2, add=34)
+    myfun2(1, 3, 4, name=1, data=2, add=34)
 
 
 
