@@ -26,3 +26,9 @@ print(a.roll)  # prints 101
 # Class variables can be accessed using class
 # name also
 print(CSStudent.stream)  # prints "cse"
+
+print(a.stream)  # prints "cse"
+print(b.stream)  # prints "cse"
+CSStudent.stream = "sudhakar"
+print(a.stream)  # prints "cse"
+print(b.stream)  # prints "cse"
